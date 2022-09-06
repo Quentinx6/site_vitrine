@@ -3,6 +3,10 @@
     font-family: Parisienne;
     src: url(/font/Parisienne-Regular.ttf);
 }
+@font-face {
+    font-family: Stencillia;
+    src: url(/font/Stencilia-Bold.ttf);
+}
 
 /*      BODY     */
 body{
@@ -22,16 +26,22 @@ body{
         width: 100%;
         height: 100px;
         display: flex;
-        background-color: #212121;
-        color: white;
+        color: #AF4E5B;
         justify-content: space-around;
-        border-bottom: solid 2px #892727;
+        border-bottom: solid 2px #AF4E5B;
     }
     #header h1{
         margin: auto 0;
+        color: black;
+        border-top: solid 1px black; 
+        border-bottom: solid 1px black;
+        font-size: 60px;
     }
     #header h3{
         margin: auto 0;
+        text-align: center;
+        font-family: Parisienne;
+        font-size: 30px;
     }
     #header img{
         margin: auto 0;
@@ -81,11 +91,18 @@ body{
         background-color: #212121;
         color: white;
         justify-content: space-around; 
-        border-top: solid 2px #892727;   
+        border-top: solid 2px #AF4E5B;   
     }
     #footer h2{
         margin: auto 0;
         width: 80%;
         display: flex;
         justify-content: space-around;
+    }
+    #footer h2 a{
+        text-decoration: none;
+        color: white;
+    }
+    #footer h2 a:hover{
+        color: #AF4E5B;
     }
